@@ -6,4 +6,4 @@ First, you will need to register on the Abstract API website. Then in the menu w
 
 Further for convenience you can somewhere to host our static site.
 
-To use it, you have to enter the appropriate data and then select from the list what you have entered. If we select Metadata, we don't need to write anything, but upload a photo. ❤️
+To use it, you have to enter the appropriate data and then select from the list what you have entered. If we select Metadata, we don't need to write anything, but upload a photo. We receive the response as JSON format. ❤️
