@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    margin-top: 10px;
+    
+    text-align: center;
+    font-size: 10vw;
+
+    width: 100%;
+}
+
+#container {
+    margin: 0;
+    display: grid;
+    justify-content: center;
+    width: 100%;
+}
+
+#dataContainer {
+    display: grid;
+    width: 170px;
+}
+#labelInputUserData {
+    margin-top: 15px;
+    margin-bottom: 2px;
+}
+#inputUserData {
+    width: fit-content;
+}
+#inputUserPhoto {
+    margin-top: 7px;
+    width: fit-content;
+}
+#labelSelectData {
+    margin-top: 20px;
+    margin-bottom: 2px;
+}
+#selectData {
+    width: fit-content;
+}
+#buttonSubmit {
+    margin-top: 20px;
+    width: fit-content;
+}
+
+#output {
+    width: fit-content;
+    position: relative;
+    display: block;
+    margin: 10px 0px 10px 10px;
+    font-size: 15px;
+}
+
+
+@media screen and (min-width: 768px) {
+    #title {
+        font-size: 50px;
+    }
+    #dataContainer {
+        margin-top: 0px;
+        transform: scale(1.2);
+    }
+}
+@media (max-width: 767px) and (min-width: 480px) {
+    #dataContainer {
+        margin-top: -10px;
+        transform: scale(1.1);
+    }
+}
+@media (max-width: 479px) and (min-width: 320px) {
+    #dataContainer {
+        margin-top: -20px;
+        transform: scale(0.9);
+    }
+    #output {
+        font-size: 15px;
+    }
+}
+@media (max-width: 319px) {
+    #dataContainer {
+        transform: scale(0.7);
+    }
+    #output {
+        font-size: 8px;
+    }
+}

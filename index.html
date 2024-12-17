@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EyeOfGod</title>
+</head>
+<body>
+    <header class="noSee">
+        <h1 id="title">Eye of God</h1>
+    </header>
+
+    <main class="noSee">
+        <div id="container">
+            <div id="dataContainer">
+                <label for="inputUserData" id="labelInputUserData">Enter data:</label>
+                <input type="text" id="inputUserData">
+                
+                <input type="file" id="inputUserPhoto" accept="image/*">
+                
+                <label for="selectData" id="labelSelectData">Options:</label>
+                <select id="selectData">
+                    <option value=""></option>
+                    <option value="phoneNumber" id="phoneNumber">Phone Number</option>
+                    <option value="email" id="email">Email</option>
+                    <option value="ip-address" id="ip-address">IP-Address</option>
+                    <option value="metadata" id="metadata">Metadata</option>
+                </select>
+                
+                <button type="submit" id="buttonSubmit" onclick="check()">SUBMIT</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <pre id="output"></pre>
+    </footer>
+   
+    <script src="https://cdn.jsdelivr.net/npm/exifreader@4.12.0/dist/exif-reader.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
