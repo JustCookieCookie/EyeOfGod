@@ -78,14 +78,14 @@ async function metadata() {
             const tags = ExifReader.load(arrayBuffer);
 
             if (Object.keys(tags).length === 0) {
-                document.getElementById('output').textContent = "EXIF-данные отсутствуют.";
+                document.getElementById('output').textContent = "EXIF data is missing.";
                 deleteAll();
             } else {
                 document.getElementById('output').textContent = JSON.stringify(tags, null, 2);
                 deleteAll();
             }
         } catch (error) {
-            console.error("Ошибка при извлечении метаданных:", error);
+            console.error("Error while extracting metadata: ", error);
         }
     }
 }
