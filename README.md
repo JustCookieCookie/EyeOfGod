@@ -6,4 +6,4 @@ First, we will need to register on the Abstract API website. Then in the menu we
 
 Further for convenience we can somewhere to host our static site. For example, Netlify.
 
-To use it, we have to enter the appropriate data and then select from the list what we have entered. If we select Metadata, we don't need to write anything, but upload a photo. We receive the response as JSON format. ❤️
+To use it, we have to enter the appropriate data and then select from the list what we have entered. If we select Metadata, we don't need to write anything, but upload a photo. We receive the response as JSON format.
